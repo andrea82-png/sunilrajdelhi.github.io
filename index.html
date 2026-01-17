@@ -151,16 +151,18 @@ button:hover, .whatsapp:hover {
     <div class="presentation">
       My name is Sunil. I have been working as a tourist driver in Delhi for the past 20 years, and I have extensive experience driving in Uttar Pradesh, Rajasthan, Uttarakhand, and Himachal Pradesh.
     </div>
-
-    <input type="text" id="name" placeholder="Your name">
-    <input type="email" id="email" placeholder="Your email">
-    <textarea id="message" placeholder="Your message"></textarea>
+<form action="https://api.web3forms.com/submit" method="POST">
+     <input type="hidden" name="access_key" value="64091863-0fb5-4ccd-8fd7-c452290a1951">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+</form>
 
     <div class="actions">
       <button onclick="sendEmail()">Send Email</button>
 
       <a class="whatsapp"
-         href="https://wa.me/1234567890"
+         href="https://wa.me/+917827471505"
          target="_blank">
         Open WhatsApp
       </a>
